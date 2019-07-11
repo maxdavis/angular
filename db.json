@@ -370,5 +370,27 @@
       "restaurantId": "tasty-treats"
     }
   ],
-  "orders": []
+  "orders": [
+    {
+      "address": "Rua Edite Dutra Pessoa",
+      "number": "90",
+      "optionalAddress": "Apto 102",
+      "paymentOption": "DEB",
+      "orderItems": [
+        {
+          "quantity": 3,
+          "menuId": "cup"
+        },
+        {
+          "quantity": 1,
+          "menuId": "straw"
+        },
+        {
+          "quantity": 1,
+          "menuId": "cake"
+        }
+      ],
+      "id": 1
+    }
+  ]
 }
